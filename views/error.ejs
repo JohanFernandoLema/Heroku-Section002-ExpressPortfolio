@@ -1,0 +1,11 @@
+<%- include('Components/html.ejs') %> 
+<%- include('Components/header.ejs') %> 
+
+<div class="container">
+<h1><%= message %></h1>
+<h2><%= error.status %></h2>
+<pre><%= error.stack %></pre>
+</div>
+
+<%- include('Components/footer.ejs') %> 
+<%- include('Components/script.ejs') %> 
